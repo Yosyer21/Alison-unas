@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Allison Beauty Studio | Elegancia y Estilo en Costa Rica</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-container">
+    <div class="logo">
+      <h1>Allison <span>Beauty</span></h1>
+      <p>Studio • Costa Rica</p>
+    </div>
+    <button class="menu-icon" id="menuToggle" type="button" aria-expanded="false" aria-label="Abrir menú de navegación">
+      <i class="fas fa-bars"></i>
+    </button>
+      <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#porque">Nosotros</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#" id="reservaNavBtn" class="btn-nav">Reservar cita</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="menu-backdrop" id="menuBackdrop" aria-hidden="true"></div>
+
+<main>
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">Realza tu belleza natural</div>
+        <h2>Elegancia & estilo <br> para ti</h2>
+        <p>En Allison Beauty Studio creemos que cada detalle cuenta. Especialistas en uñas, pestañas y cejas con atención personalizada y resultados duraderos.</p>
+        <div class="hero-stats">
+          <a href="#" class="btn-primary" id="heroReservaBtn"><i class="fas fa-calendar-check"></i> Agenda tu cita</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="../assets/alison-opt.jpg" alt="Allison Beauty Studio - Allison (dueña)">
+        <div class="owner-credit">Allison — Dueña y especialista</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS DE UÑAS + PESTAÑAS + CEJAS -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2 class="section-title">Nuestros servicios premium</h2>
+      <div class="services-grid">
+        <!-- Uñas card -->
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-hand-sparkles"></i></div>
+          <h3>Uñas</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Manicure clásico y spa</li>
+            <li><i class="fas fa-check-circle"></i> Uñas acrílicas y en gel</li>
+            <li><i class="fas fa-check-circle"></i> Diseño personalizado (nail art)</li>
+            <li><i class="fas fa-check-circle"></i> Rellenos y mantenimiento</li>
+            <li><i class="fas fa-check-circle"></i> Pedicure profesional</li>
+          </ul>
+          <p style="margin-top:1rem; font-size:0.85rem;">Productos de alta calidad, brillo impecable</p>
+        </div>
+        <!-- Pestañas -->
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-eye"></i></div>
+          <h3>Pestañas</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Extensiones clásicas, híbridas y volumen ruso</li>
+            <li><i class="fas fa-check-circle"></i> Lifting de pestañas</li>
+            <li><i class="fas fa-check-circle"></i> Tinte de pestañas</li>
+          </ul>
+          <p style="margin-top:1rem;">Mirada glamorosa o natural, a tu estilo.</p>
+        </div>
+        <!-- Cejas -->
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-brow"></i></div>
+          <h3>Cejas</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Diseño y perfilado de cejas</li>
+            <li><i class="fas fa-check-circle"></i> Depilación con cera o pinza</li>
+            <li><i class="fas fa-check-circle"></i> Laminado de cejas</li>
+            <li><i class="fas fa-check-circle"></i> Tinte de cejas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section id="porque" class="section section-light">
+    <div class="container two-columns">
+      <div class="col-text">
+        <h3>¿Por qué elegirnos?</h3>
+        <ul class="feature-list">
+          <li><i class="fas fa-heart"></i> Atención personalizada y cálida</li>
+          <li><i class="fas fa-certificate"></i> Profesionales capacitados</li>
+          <li><i class="fas fa-spa"></i> Ambiente cómodo y relajante</li>
+          <li><i class="fas fa-star"></i> Productos de alta calidad</li>
+          <li><i class="fas fa-clock"></i> Resultados duraderos y naturales</li>
+        </ul>
+        <p style="margin-top:1.5rem;">San José, Costa Rica • Espacio exclusivo para resaltar tu belleza.</p>
+      </div>
+      <div class="col-img">
+        <img src="../assets/whatsapp-1-opt.jpg" alt="Ambiente Allison Beauty Studio">
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA DE EJEMPLO (estilo moderno) -->
+  <section id="galeria" class="section">
+    <div class="container">
+      <h2 class="section-title">Inspiración</h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- imágenes placeholder, con estilo elegante -->
+        <div class="gallery-item"><img src="../assets/whatsapp-2-opt.jpg" alt="nail art"></div>
+        <div class="gallery-item"><img src="../assets/whatsapp-3-opt.jpg" alt="pestañas volumen"></div>
+        <div class="gallery-item"><img src="../assets/whatsapp-4-opt.jpg" alt="cejas laminado"></div>
+        <div class="gallery-item"><img src="../assets/whatsapp-5-opt.jpg" alt="manicure elegante"></div>
+        <div class="gallery-item"><img src="../assets/whatsapp-6-opt.jpg" alt="detalle salon"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA reserva -->
+  <div class="container">
+    <div class="cta-section">
+      <h3>Reserva tu cita</h3>
+      <p>Tu momento de brillar comienza aquí. Agenda tu cita y déjanos cuidar de ti.</p>
+      <button class="btn-white" id="ctaReservaBtn"><i class="fas fa-calendar-alt"></i> Agendar ahora</button>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="logo" style="margin-bottom:1rem;">
+      <h3 style="color:white;">Allison <span style="color:#f5a6b8;">Beauty Studio</span></h3>
+    </div>
+    <p>Realza tu belleza natural con elegancia y estilo • Costa Rica</p>
+    <div class="social-links" style="margin: 1rem 0;">
+      <a href="https://www.instagram.com/allisonbeautystudio/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p style="font-size:0.8rem;">© 2025 Allison Beauty Studio - Elegancia que inspira</p>
+  </div>
+</footer>
+
+<!-- Botón flotante WhatsApp -->
+<a href="https://wa.me/50612345678?text=Hola%20Allison%20Beauty%2C%20quisiera%20agendar%20una%20cita%20para%20u%C3%B1as%2Fpesta%C3%B1as." class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- MODAL RESERVA -->
+<div id="reservaModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" id="closeModalBtn">&times;</span>
+    <h3>Agenda tu cita</h3>
+    <p style="margin-bottom: 1rem;">Déjanos tus datos y te contactaremos</p>
+    <form id="bookingForm">
+      <div class="form-group">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+      </div>
+      <div class="form-group">
+        <input type="tel" id="telefono" placeholder="Teléfono / WhatsApp" required>
+      </div>
+      <div class="form-group">
+        <select id="servicioSelect" required>
+          <option value="">Selecciona servicio</option>
+          <option>Manicure clásico/spa</option>
+          <option>Uñas acrílicas o gel</option>
+          <option>Nail art personalizado</option>
+          <option>Pedicure profesional</option>
+          <option>Extensiones de pestañas</option>
+          <option>Lifting de pestañas</option>
+          <option>Diseño y perfilado de cejas</option>
+          <option>Laminado de cejas</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <input type="date" id="fechaCita" required>
+        </div>
+        <div class="form-group">
+          <select id="horaCita" required>
+            <option value="">Hora de la cita</option>
+            <option value="09:00">9:00 AM</option>
+            <option value="10:00">10:00 AM</option>
+            <option value="11:00">11:00 AM</option>
+            <option value="12:00">12:00 PM</option>
+            <option value="13:00">1:00 PM</option>
+            <option value="14:00">2:00 PM</option>
+            <option value="15:00">3:00 PM</option>
+            <option value="16:00">4:00 PM</option>
+            <option value="17:00">5:00 PM</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea id="comentarios" rows="2" placeholder="Comentarios adicionales (opcional)..."></textarea>
+      </div>
+      <button type="submit" class="submit-btn"><i class="fab fa-whatsapp"></i> Confirmar por WhatsApp</button>
+    </form>
+    <p style="font-size:0.75rem; margin-top:1rem; text-align:center;">Te responderemos en breve</p>
+  </div>
+</div>
+
+<script src="../js/index.js" defer></script>
+</body>
+</html>
